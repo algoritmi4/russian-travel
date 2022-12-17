@@ -1,0 +1,25 @@
+.places {
+  width: 77%;
+  margin: 92px 0 0;
+  justify-items: center;
+}
+
+@media all and (max-width: 1024px) {
+  .places {
+    width: 90.6%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .places {
+    width: 93.75%;
+    margin: 88px 0 0;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .places {
+    width: 100%;
+    margin: 64px 0 0;
+  }
+}

@@ -1,0 +1,10 @@
+.header__langs {
+  display: flex;
+  margin: 18px 0 0;
+}
+
+@media all and (max-width: 425px) {
+  .header__langs {
+    margin: 14px 0 0;
+  }
+}

@@ -1,0 +1,32 @@
+.cover {
+  width: 92.5%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin: 92px 0 0;
+  height: calc(92.5vw*0.625);
+  background-image: url(../../images/cover__background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media all and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    height: calc(100vw*0.625);
+    background-size: 100% calc(100vw*0.625);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cover {
+    margin: 90px 0 0;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .cover {
+    margin: 66px 0 0;
+  }
+}

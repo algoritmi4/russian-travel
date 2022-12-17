@@ -1,0 +1,13 @@
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 0 0;
+  align-items: flex-start;
+}
+
+@media all and (max-width: 425px) {
+  .header {
+    margin: 16px auto 0;
+  }
+}

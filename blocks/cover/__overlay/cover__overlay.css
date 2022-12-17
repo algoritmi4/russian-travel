@@ -1,0 +1,27 @@
+.cover__overlay {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+.cover__overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity .2s linear;
+}
+
+.cover__overlay:hover:after {
+  opacity: 0.8;
+  cursor: pointer;
+}
