@@ -5,3 +5,5 @@
 
 Используемые технологии: flex и grid сетки, выравнивание с помощью последних, адаптивная верстка.
 
+ССылка на GitHub Pages: https://agregati4.github.io/russian-travel/
+
