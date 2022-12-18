@@ -4,17 +4,10 @@
   line-height: 1.16;
   color: white;
   margin: 0 18px 0 0;
-  text-transform: uppercase;
-  transition: opacity .2s linear;
 }
 
 .header__lang:last-of-type {
   margin-right: 0;
-}
-
-.header__lang:hover {
-  opacity: 0.8;
-  cursor: pointer;
 }
 
 @media all and (max-width: 425px) {

@@ -1,13 +1,26 @@
 .header {
-  width: 90%;
+  width: 92.5%;
   display: flex;
   justify-content: space-between;
   margin: 28px 0 0;
   align-items: flex-start;
 }
 
+@media all and (max-width: 1024px) {
+  .header {
+    width: 90.6%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .header {
+    width: 93.75%;
+  }
+}
+
 @media all and (max-width: 425px) {
   .header {
+    width: 90%;
     margin: 16px auto 0;
   }
 }

@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 617px) {
   .place__website {
     margin: 32px 16px;
   }
