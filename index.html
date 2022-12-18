@@ -12,6 +12,7 @@
 		<header class="header">
 			<img class="logo" src="./images/logo.svg" alt="Логотип" >
 			<div class="header__langs">
+        <!-- Модификатор для подчеркивания _active -->
 				<p class="header__lang header__lang_active">ru</p>
 				<p class="header__lang">en</p>
 			</div>
@@ -37,6 +38,7 @@
 				проехала 20 тысяч километров по родной стране. Мы выбрали и описали
 				некоторые интересные места, достойные вашего отпуска.
 			</p>
+      <!-- div для выравния строк текста, чтобы не использовать тег <br> -->
 			<div class="intro__list">
 				<p class="intro__list-item">
 					Часовых поясов <span class="thin-text">11</span>
@@ -55,6 +57,7 @@
 				</p>
 			</div>
 		</section>
+    <!-- Галерея изображений, грид сетка -->
 		<div class="photo-grid">
 			<img
 				class="photo-grid__item"
@@ -118,7 +121,7 @@
 			>
 		</div>
 		<section class="places">
-			<div class="place">
+			<article class="place">
 				<h2 class="place__title">Куршская коса</h2>
 				<div class="place__website">
 					<p class="place__url-heading">url</p>
@@ -145,8 +148,8 @@
 						моря.
 					</p>
 				</div>
-			</div>
-			<div class="place">
+			</article>
+			<article class="place">
 				<h2 class="place__title">Кольский</h2>
 				<div class="place__website">
 					<p class="place__url-heading">url</p>
@@ -176,8 +179,8 @@
 						северное сияние начинает сбываться с билетом в Мурманск.
 					</p>
 				</div>
-			</div>
-			<div class="place">
+			</article>
+			<article class="place">
 				<h2 class="place__title">Алтай</h2>
 				<div class="place__website">
 					<p class="place__url-heading">url</p>
@@ -206,8 +209,8 @@
 						И знаменитые манулы — тоже обитатели Алтайского края.
 					</p>
 				</div>
-			</div>
-			<div class="place">
+			</article>
+			<article class="place">
 				<h2 class="place__title">Зимний Байкал</h2>
 				<div class="place__website">
 					<p class="place__url-heading">url</p>
@@ -234,8 +237,8 @@
 						поставлен мировой рекорд — 197.011 км/ч.
 					</p>
 				</div>
-			</div>
-			<div class="place">
+			</article>
+			<article class="place">
 				<h2 class="place__title">Карелия</h2>
 				<div class="place__website">
 					<p class="place__url-heading">url</p>
@@ -261,8 +264,10 @@
 						кто тут хозяин.
 					</p>
 				</div>
-			</div>
+			</article>
 		</section>
+    <!-- Картинка задана через фоновое изображение для блока cover -->
+    <!-- ,а затемняющийся фон наложен поверх с помощью position: absolute для colver__overlay -->
 		<section class="cover">
 			<a
 				class="cover__overlay"

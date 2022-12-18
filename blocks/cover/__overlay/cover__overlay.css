@@ -8,7 +8,7 @@
   text-decoration: none;
   color: white;
 }
-
+/* Псевдоэлемент, который будет растягиваться на весь блок и создавать затемнение */
 .cover__overlay::after {
   content: "";
   position: absolute;
