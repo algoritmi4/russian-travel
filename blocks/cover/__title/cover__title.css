@@ -5,7 +5,8 @@
   text-align: center;
   margin: 0 0 32px;
   z-index: 1;
-  width: 560px;
+  max-width: 560px;
+  width: 100%;
 }
 
 @media all and (max-width: 610px) {
@@ -13,5 +14,6 @@
     font-size: 32px;
     line-height: 1.09;
     max-width: 288px;
+    margin: 0 0 16px;
   }
 }

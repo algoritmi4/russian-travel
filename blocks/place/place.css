@@ -1,7 +1,6 @@
 .place {
   display: grid;
   grid-template-columns: 460px 1fr;
-  grid-row: 1fr 1fr;
   gap: 48px 40px;
   color: white;
   margin: 0 0 80px;
@@ -24,20 +23,12 @@
     margin: 0 0 73px;
     gap: 48px 28px;
   }
-
-  .place:last-of-type {
-    margin: 0;
-  }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 617px) {
   .place {
     grid-template-columns: 100%;
     margin: 0 0 50px;
     gap: 0;
-  }
-
-  .place:last-of-type {
-    margin: 0;
   }
 }
