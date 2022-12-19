@@ -20,7 +20,9 @@
 
 @media all and (max-width: 610px) {
   .footer {
-    margin: 64px 0 24px 16px;
+    margin: 64px 16px 24px;
     flex-direction: column;
+    max-width: 58.1%;
+    justify-self: start;
   }
 }
