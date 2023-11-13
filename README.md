@@ -15,4 +15,5 @@
 - Есть анимации наведения
 - Можно перейти по ссылкам и изучить информацию о представленных местах
 
-ССылка на GitHub Pages: https://algoritmi4.github.io/russian-travel/
+## Ссылка на GitHub Pages
+https://algoritmi4.github.io/russian-travel/
